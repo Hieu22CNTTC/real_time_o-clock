@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    text-align: center;
+}
+
+#clocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clock {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.morning {
+    background-color: #FFFAF0;
+    color: #FF4500;
+}
+
+.afternoon {
+    background-color: #FFFACD;
+    color: #FFD700;
+}
+
+.evening {
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+}
+
+.night {
+    background-color: #191970;
+    color: #87CEEB;
+}
